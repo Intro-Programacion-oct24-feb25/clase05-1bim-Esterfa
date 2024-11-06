@@ -26,6 +26,7 @@ public class Ejemplo6 {
         // J    2 
         // A    3
         // 
+        // variable inicial = a una ciuad subcadena(substring)
         String inicial = ciudad.substring(0, 1); // se obtiene 
         // el primer 
         // caracter de la cadena

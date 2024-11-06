@@ -24,6 +24,7 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
+        // estamos negando la igualdad en cadena
         if (!ciudad.equals("Loja")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
@@ -32,6 +33,7 @@ public class Ejemplo5 {
 
         int numero = 10;
 
+        // es una comparacion de valores numericos cuando sean diferentes
         if (numero != 10) {
             System.out.println("correcto");
         }

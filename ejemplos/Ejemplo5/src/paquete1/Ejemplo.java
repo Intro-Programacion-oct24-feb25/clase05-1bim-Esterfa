@@ -19,6 +19,10 @@ public class Ejemplo {
     public static void main(String[] args) {
         // Ingresar un número por teclado, determinar si es par o impar
         // Un número es para si al dividirlo para dos su residuo es cero.
+        
+        // 10/5 = 2
+        // 10 mod 5 = 0
+        // mod es el residuo
 
         Scanner entrada = new Scanner(System.in);
         int numeroIngresado;
@@ -28,6 +32,8 @@ public class Ejemplo {
         System.out.println("Ingrese el número a evaluar");
         numeroIngresado = entrada.nextInt();
 
+        // % es el modulo que da el residuo
+        
         if (numeroIngresado % 2 == 0) {
             System.out.printf("Resultado %s\n", mensajeUno);
         } else {
